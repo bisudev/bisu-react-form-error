@@ -11,7 +11,7 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
+    "build": "nwb build-react-component --copy-files",
     "clean": "nwb clean-module && npm clean-demo",
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
@@ -24,13 +24,15 @@
   },
   "devDependencies": {
     "nwb": "0.15.x",
-    "react": "^15.5.3",
-    "react-dom": "^15.5.3"
+    "nwb-sass": "0.7.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux-form": "1.9.0"
   },
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/bisudev/bisu-react-form-error.git",
   "keywords": [
     "react-component"
   ]
